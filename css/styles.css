@@ -166,3 +166,18 @@ a.button2:focus {
 .two {
     display: flex;
 }
+
+#contactme {
+    text-align: center;
+    padding: 3em 17em 0 17em;
+}
+
+#contactme p {
+    padding: 0 6em 0 6em;
+}
+
+#contactme img {
+    width: min-content;
+    padding: 0 0.3em 0 0.3em;
+    padding-top: 1.5em;
+}
