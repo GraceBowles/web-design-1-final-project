@@ -181,3 +181,52 @@ a.button2:focus {
     padding: 0 0.3em 0 0.3em;
     padding-top: 1.5em;
 }
+
+#quotes {
+    background-color: #000;
+    max-width: fit-content;
+    color: white;
+    margin: 0 auto;
+    padding: 4em 0 1em 0;
+}
+
+#quotes h2 {
+    text-align: center;
+    padding: 0;
+}
+
+.quotes-square {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    height: 15em;
+    padding: 0em 3em 0em 3em;
+}
+
+.quotes-box {
+    box-sizing: border-box;
+    padding: 0 2em 0 2em;
+    font-style: italic;
+}
+
+.quotes-box1 {
+    box-sizing: border-box;
+    padding: 0 2em 0 2em;
+    font-style: italic;
+}
+
+.quotes-square cite {
+    box-sizing: border-box;
+    color:#FAFAFA;
+    font-size: 2em;
+    font-style: normal;
+    padding: .5em .5em .5em 1em;
+}
+
+footer {
+    color: white;
+    background-color: #000;
+    margin: 0 0 0 0;
+    text-align:center;
+    padding: 10px 0 10px 0;
+}
