@@ -1,4 +1,4 @@
-html{
+html {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -8,14 +8,7 @@ html{
     box-sizing: border-box;
 }
 
-body{
-    font-family: 'Noto Serif', serif;
-    font-size: 1.1em;
-    margin: 0 auto;
-    color: #000; 
-}
-
-header{
+header {
     background-color: #000;
     display: flex;
     justify-content: space-between;
@@ -23,12 +16,11 @@ header{
     padding: 0 5em 0 5em;
 }
 
-header span{
-    color:#ffffff;
-    font-size: 2em;
+header span {
+    color:white;
 }
 
-nav ul{
+nav ul {
     list-style: none;
     padding: 0;
     text-align: end;
@@ -36,7 +28,141 @@ nav ul{
 
 nav ul li{
     display: inline-block;
-    padding: 0.5em 1.5em;
-    font-size: 1em;
+    padding: 0.5em .75em;
 }
 
+a.button {
+    text-decoration: none;
+    color: white;
+}
+
+a.button:hover {
+    text-decoration: none;
+    color: white;  
+}
+
+a.button:visited {
+    text-decoration: none;
+    color: white;  
+}
+
+a.buttom:focus {
+    text-decoration: none;
+    color: white;  
+}
+
+.herobanner {
+    width: 100%
+}
+
+body{
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 5em 0 5em;
+}
+
+#aboutme img {
+    max-height: 700px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+#service {
+    background-color: #FAFAFA;
+    max-width:fit-content;
+}
+
+#service h3 {
+    text-align: center;
+    padding: 0;
+}
+
+#service h3 {
+    margin-top: 0;
+}
+
+.service-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 15em;
+    padding: 1em 2em 0 2em;
+}
+
+.logo-box {
+    box-sizing: border-box;
+    margin: .5em;
+    padding: 1em;
+    border-radius: 0.125rem;
+    background-color: #ffffff;
+}
+
+.web-box {
+    box-sizing: border-box;
+    margin: .5em;
+    padding: 1em;
+    border-radius: 0.123rem;
+    background-color: #ffffff;
+}
+
+.brand-box {
+    box-sizing: border-box;
+    margin: .5em;
+    padding: 1em;
+    border-radius: 0.123rem;
+    background-color: #ffffff;
+}
+
+#services a {
+    box-sizing: border-box;
+    margin: .5em;
+    padding: 1em;
+    border-radius: 0.123rem;
+    background-color: #ffffff;
+}
+
+a.button2 {
+    text-decoration: none;
+    color:#ffffff;
+}
+
+a.button2:hover {
+    text-decoration: none;
+    color:#ffffff;
+}
+
+a.button2:visited {
+    text-decoration: none;
+    color:#ffffff;
+}
+
+a.button2:focus {
+    text-decoration: none;
+    color:#ffffff;
+}
+
+#mywork {
+    text-align: center;
+    padding: 5em 0 5em 0;
+}
+
+#mywork p {
+    padding: 0 17em 0 17em;
+}
+.one {
+    display: flex;
+}
+
+.two {
+    display: flex;
+}
